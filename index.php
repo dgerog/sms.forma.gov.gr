@@ -112,7 +112,7 @@
       <hr>
 
       <footer>
-        <p> Crafted with love by <a href='https://www.github.com/dgerog' targe='_blank'>Demetris Gerogiannis (aka DpG)</a>. - Share the knowledge! Share the passion! - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
+        <p>Share the knowledge! Share the passion! - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a></p>
       </footer>
     </div>
 
