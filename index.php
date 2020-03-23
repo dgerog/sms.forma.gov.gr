@@ -129,7 +129,7 @@
 
     <!-- Custom Scripts -->
     <script src="js/cookies.js"></script>
-    <script src="js/sms.js.php"></script>
+    <script src="js/sms.js"></script>
     <script>
         var messages = <?php echo json_encode($messages['error']); ?>;
         $(document).ready(function() {
