@@ -19,10 +19,10 @@ function prepareSMS(reason) {
     setCookie('fn', fn);
     setCookie('ad', ad);
 
-    if (/iPhone/i.test(navigator.userAgent)) {
+    if (/iphone/i.test(navigator.userAgent.toLowerCase())) {
         location.href = 'sms:13033&body=' + reason + '%20' + fn + '%20' + ad;
     }
-    else if (/Android/i.test(navigator.userAgent)) {
+    else if (/android/i.test(navigator.userAgent.toLowerCase())) {
         location.href = 'sms:13033?body=' + reason + '%20' + fn + '%20' + ad;
     }
     else {

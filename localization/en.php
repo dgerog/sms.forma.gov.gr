@@ -1,7 +1,7 @@
 <?php
     global $messages;
     $messages = array (
-        'meta_description' => 'Automating the sending of SMS to request permission to move during lock down.',
+        'meta_description' => 'Automating the sending of SMS to request permission to move during the lock down.',
         'og_title' => 'forma.gov.gr - SMS to request permission to move',
         'og_description' => 'Automating the sending of SMS to request permission to move during lock down.',
         'title' => 'forma.gov.gr ~ SMS @ 13030',
