@@ -1,4 +1,12 @@
 <?php
+  //improve HTTP headers security
+  header('X-Frame-Options: SAMEORIGIN');
+  header('X-Content-Type-Options: nosniff');
+  header("Referrer-Policy: no-referrer");
+  header("Strict-Transport-Security:max-age=63072000");
+  header("Content-Security-Policy: default-src 'https';");
+  header("Feature-Policy: * 'none';");
+
   require_once('localization/languages.php');
   global $messages; global $languages; global $lang;
 
