@@ -1,3 +1,5 @@
+var sms_number = '13033'; //replace with the receipient number
+
 function prepareSMS(reason) {
     var fn = $('#full-name').val();
     if (fn.length <= 5) {
@@ -20,10 +22,10 @@ function prepareSMS(reason) {
     setCookie('ad', ad);
 
     if (/iphone/i.test(navigator.userAgent.toLowerCase())) {
-        location.href = 'sms:13033&body=' + reason + '%20' + fn + '%20' + ad;
+        location.href = 'sms:' + sms_number + '&body=' + reason + '%20' + fn + '%20' + ad;
     }
     else if (/android/i.test(navigator.userAgent.toLowerCase())) {
-        location.href = 'sms:13033?body=' + reason + '%20' + fn + '%20' + ad;
+        location.href = 'sms:' + sms_number + '?body=' + reason + '%20' + fn + '%20' + ad;
     }
     else {
         alert(messages.use_mob_device);
