@@ -22,9 +22,9 @@
     <meta property="og:type" content="page"/>
     <meta property="og:title" content="<?php echo $messages['og_title']; ?>"/>
     <meta property="og:description" content="<?php echo $messages['og_description']; ?>"/>
+    <meta property="og:image" content="https://www.workremotely.gr/sms/favicon.png"/>
 
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/jumbotron/">
+    <link rel="icon" href="favicon.png" type="image/png" sizes="256x256">
 
     <title><?php echo $messages['title']; ?></title>
 
