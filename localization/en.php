@@ -30,7 +30,8 @@
         'error' => array (
             'no_fn' => 'Please enter your full name.',
             'no_fn_space' => 'Please enter your full name as FIRST-NAME<space>LAST-NAME',
-            'no_ad' => 'Please enter your address.'
+            'no_ad' => 'Please enter your address.',
+            'use_mob_device' => 'Please use your mobile phone, or your browser is not supported.',
           ),        
     );
 ?>

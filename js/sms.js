@@ -18,5 +18,14 @@ function prepareSMS(reason) {
     }
     setCookie('fn', fn);
     setCookie('ad', ad);
-    location.href = 'sms:13033&body=' + reason + '%20' + fn + '%20' + ad;
+
+    if (/iPhone/i.test(navigator.userAgent)) {
+        location.href = 'sms:13033&body=' + reason + '%20' + fn + '%20' + ad;
+    }
+    else if (/Android/i.test(navigator.userAgent)) {
+        location.href = 'sms:13033?body=' + reason + '%20' + fn + '%20' + ad;
+    }
+    else {
+        alert(messages.use_mob_device);
+    }
 }
