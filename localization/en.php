@@ -22,7 +22,7 @@
         'reason_5' => 'Attend a ceremony (funeral, wedding, baptism) according to the law, or visit divorced parents when needed to ensure communication with children according to the law.',
         'reason_6' => 'Physical outdoor exercising or walking with your pet (maximum two persons keeping the required distance of 1.5 meters among them).',
         'important' => 'IMPORTANT',
-        'liability-declaration' => 'Access this page only via a mobile phone. By clicking "Create SMS" the appropriate message will be created on your mobile phone and <b>you will have to send the sms</b> in order to receive the required approval to move. In any case make sure that you get the conformation SMS before moving.',
+        'liability-declaration' => 'Access this page only via a mobile phone. By clicking "Create SMS" the appropriate message will be created on your mobile phone and <b>you will have to send the sms</b> in order to receive the required approval to move. In any case make sure that you get the confirmation SMS before moving.',
         'privacy-notice' => 'PRIVACY NOTICE',
         'privacy-message' => 'This page uses cookies to store data <b>locally</b> (for 30 days) in order to auto complete this form for your convinience. In no case your data are being shared with 3rd parties (appart from the telecomynication carriers to send the SMS).<br/> Select "Clear Page Cookies" bellow to permanently remove all the data this page stored localy.',
         'delete-cookies' => 'Clear Page Cookies',
