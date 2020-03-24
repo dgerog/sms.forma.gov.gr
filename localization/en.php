@@ -24,7 +24,7 @@
         'important' => 'IMPORTANT',
         'liability-declaration' => 'Access this page only via a mobile phone. By clicking "Create SMS" the appropriate message will be created on your mobile phone and <b>you will have to send the sms</b> in order to receive the required approval to move. In any case make sure that you get the confirmation SMS before moving.',
         'privacy-notice' => 'PRIVACY NOTICE',
-        'privacy-message' => 'This page uses cookies to store data <b>locally</b> (for 30 days) in order to auto-complete this form for your convenience. In no case your data are being shared with 3rd parties (apart from the telecomynication carriers to send the SMS).<br/> Select "Clear Page Cookies" bellow to permanently remove all the data this page stored locally.',
+        'privacy-message' => 'This page uses cookies to store data <b>locally</b> (for 30 days) in order to auto-complete this form for your convenience. In no case your data are being shared with 3rd parties (apart from the telecommunication carriers to send the SMS).<br/> Select "Clear Page Cookies" bellow to permanently remove all the data this page stored locally.',
         'delete-cookies' => 'Clear Page Cookies',
 
         'error' => array (

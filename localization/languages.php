@@ -19,5 +19,9 @@
             'title' => 'فارسی (Farsi)',
             'icon' => 'iran',
         ),
+        'es' => array (
+            'title' => 'Spanish',
+            'icon' => 'spain',
+        ),
     );
 ?>
