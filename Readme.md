@@ -15,6 +15,11 @@
 
 * **Demetris Gerogiannis (aka DpG)**
 
+## Contributors
+
+* **Dionisis Skordoulis**: For some security improvements.
+* **Farhan Sejdeh**: For providing the Farsi/Persian tranalation.
+
 
 ## License
 
