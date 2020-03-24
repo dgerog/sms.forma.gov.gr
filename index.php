@@ -4,7 +4,7 @@
   header('X-Content-Type-Options: nosniff');
   header("Referrer-Policy: no-referrer");
   header("Strict-Transport-Security:max-age=63072000");
-  header("Content-Security-Policy: default-src 'https';");
+  //header("Content-Security-Policy: default-src 'https';");
   header("Feature-Policy: * 'none';");
 
   //load languages  
