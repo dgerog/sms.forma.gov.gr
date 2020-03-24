@@ -7,6 +7,7 @@
   header("Content-Security-Policy: default-src 'https';");
   header("Feature-Policy: * 'none';");
 
+  //load languages  
   require_once('localization/languages.php');
   global $messages; global $languages; global $lang;
 

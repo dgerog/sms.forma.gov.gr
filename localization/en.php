@@ -7,7 +7,7 @@
         'title' => 'forma.gov.gr ~ SMS @ 13030',
         'select-language' => 'Select language',
         'intro-help' => 'Fill in your details and select the reason you are requesting to move by clicking the related button to "Create SMS"',
-        'full-name' => 'First & Last Nname',
+        'full-name' => 'First & Last Name',
         'full-name-placeholder' => 'Type your first and last name...',
         'full-name-hint' => 'Enter your full name as appeared on your ID/Passport.',
         'address' => 'Residense Address',
