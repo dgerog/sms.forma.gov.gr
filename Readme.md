@@ -19,6 +19,7 @@
 
 * **Dionisis Skordoulis**: For some security improvements.
 * **Farhan Sejdeh**: For providing the Farsi/Persian tranalation.
+* **Joram Medina Gijon**: For providing the Spanish tranalation.
 
 
 ## License
