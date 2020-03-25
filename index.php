@@ -83,7 +83,7 @@
         </div>
         
         <div class="form-group">
-            <p><b><?php echo $messages['address-hint']; ?>:</b></p>
+            <p><b><?php echo $messages['select-reason']; ?>:</b></p>
             <p>1. <?php echo $messages['reason_1']; ?></p>
             <a href="#" onclick="javascript:prepareSMS(1);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
             <hr/>
