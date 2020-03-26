@@ -16,7 +16,7 @@
             'icon' => 'united-states-of-america',
         ),
         'fa' => array (
-            'title' => 'فارسی (Farsi)',
+            'title' => 'Farsi',
             'icon' => 'iran',
         ),
         'es' => array (
@@ -30,6 +30,10 @@
         'it' => array (
             'title' => 'Italian',
             'icon' => 'italy',
+        ),
+        'ar' => array (
+            'title' => 'Arabic',
+            'icon' => 'syria',
         ),
     );
 ?>
