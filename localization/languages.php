@@ -27,5 +27,9 @@
             'title' => 'Sorani',
             'icon' => 'kurdistan',
         ),
+        'it' => array (
+            'title' => 'Italian',
+            'icon' => 'italy',
+        ),
     );
 ?>

@@ -21,6 +21,7 @@
 * **Farhan Sejdeh**: For providing the Farsi/Persian tranalation.
 * **Joram Medina Gijon**: For providing the Spanish tranalation.
 * **Raad Azeebaree**: For providing the Kurdish translation.
+* **Alessandro Mangione**: For providing the Italian translation.
 
 ## License
 
