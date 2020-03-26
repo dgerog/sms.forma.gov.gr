@@ -22,6 +22,7 @@
 * **Joram Medina Gijon**: For providing the Spanish tranalation.
 * **Raad Azeebaree**: For providing the Kurdish translation.
 * **Alessandro Mangione**: For providing the Italian translation.
+* **Mervat Mousallam**: For providing the Arabic translation.
 
 ## License
 
