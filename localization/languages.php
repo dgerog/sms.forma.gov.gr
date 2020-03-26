@@ -24,7 +24,7 @@
             'icon' => 'spain',
         ),
         'ku' => array (
-            'title' => '(Kurdish)',
+            'title' => 'Sorani',
             'icon' => 'kurdistan',
         ),
     );
