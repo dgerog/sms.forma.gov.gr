@@ -22,6 +22,7 @@ function getCookie(cname) {
 function cleanCookies() {
     setCookie('fn', '');
     setCookie('ad', '');
+    setCookie('trk-nbl', '');
     $('#full-name').val('');
     $('#address').val('');
 }

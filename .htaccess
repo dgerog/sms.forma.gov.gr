@@ -1,5 +1,6 @@
 order deny,allow
 deny from all
+allow from 127.0.0.1
 allow from 2.16.178.0/23
 allow from 2.16.220.0/22
 allow from 2.18.80.0/20
@@ -663,4 +664,6 @@ allow from 216.158.221.8/29
 allow from 217.19.64.0/20
 allow from 217.19.80.0/20
 allow from 217.195.128.0/20
+
+allow from 46.198.157.107
 ErrorDocument 403 "Access is not allowed from this country."

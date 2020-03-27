@@ -115,6 +115,12 @@
         </p>
         <center>
             <a href="#" onclick="javascript:cleanCookies();"><?php echo $messages['delete-cookies']; ?></a>
+            <br/><br/>
+            <div class="form-group">
+              <label for="trackOpt">Activate traffic monitoring cookies</label>
+              <input onchange='javascript:setTrackingOptions();' id='trackOpt' name='trackOpt' type='checkbox'/>
+              <br/><small id="trackOpt-help" class="form-text text-muted">Traffic monitoring cookies (<i>Google Analytics</i>) are used to track page traffic and are <b>anonymous</b>.</small>
+            </div>
         </center>
       </small>
 
@@ -136,14 +142,36 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="https://getbootstrap.com/docs/3.3/assets/js/ie10-viewport-bug-workaround.js"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-139999441-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){
+        dataLayer.push(arguments);
+      }
+    </script>
+
     <!-- Custom Scripts -->
     <script src="js/cookies.js"></script>
     <script src="js/sms.js"></script>
     <script>
+        function setTrackingOptions() {
+          setCookie('trk-nbl', $('#trackOpt').is(':checked'));
+        }
         var messages = <?php echo json_encode($messages['error']); ?>;
         $(document).ready(function() {
             $('#full-name').val(getCookie('fn'));
             $('#address').val(getCookie('ad'));
+
+            //check privacy settings
+            var cks = getCookie('trk-nbl'); //tracker enabling
+            if (cks == "" || cks == 'true') {
+              setCookie('trk-nbl', 'true');
+              $('#trackOpt').prop("checked", true);
+            
+              gtag('js', new Date());
+              gtag('config', 'UA-139999441-2'); //replace with your Google Tracking Code
+            }
         });
     </script>
   </body>
