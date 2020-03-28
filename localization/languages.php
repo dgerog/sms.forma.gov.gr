@@ -35,5 +35,9 @@
             'title' => 'Arabic',
             'icon' => 'syria',
         ),
+        'afr' => array (
+            'title' => 'French',
+            'icon' => 'france',
+        ),
     );
 ?>
