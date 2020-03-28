@@ -23,7 +23,7 @@
         'reason_6' => 'Exercice physique en plein air ou marche avec votre animal de compagnie (maximum deux personnes gardant la distance requise de 1,5 mètres parmi elles).',
         'important' => 'IMPORTANTE',
         'liability-declaration' => 'N’accéder à cette page que par un téléphone portable. En cliquant  sur  "Créer un message SMS" le message approprié sera créé sur votre téléphone mobile et vous devrez envoyer le SMS pour recevoir l’approbation requise. Dans tous les cas assurez-vous d’avoir le SMS de confirmation avant de vous déplacer.',
-        'privacy-notice' => 'NOTE DE CONFIDENTIALITE'
+        'privacy-notice' => 'NOTE DE CONFIDENTIALITE',
         'privacy-message' => 'Cette page utilise des cookies pour stocker les données localement (pendant 30 jours) afin de remplir automatiquement ce formulaire pour votre commodité. En aucun cas vos données ne sont pas partagées avec des tiers (à l’exception des entreprises de télécommunication pour envoyer le SMS). Sélectionnez  "Effacer les cookies de page" ci-dessous pour supprimer définitivement  toutes les données stockées localement sur cette page.',
         'delete-cookies' => 'Effacer les Cookies de Page',
 
