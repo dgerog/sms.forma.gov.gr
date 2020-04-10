@@ -39,5 +39,9 @@
             'title' => 'French',
             'icon' => 'france',
         ),
+        'ur' => array (
+            'title' => 'Urdu',
+            'icon' => 'pakistan',
+        ),
     );
 ?>

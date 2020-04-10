@@ -68,7 +68,6 @@
         ?>
       </div>
       <hr/>
-      <br/>
       <p><?php echo $messages['intro-help']; ?></p>
       <form id='sms-form'>
         <div class="form-group">
@@ -160,6 +159,7 @@
         }
         var messages = <?php echo json_encode($messages['error']); ?>;
         $(document).ready(function() {
+            //form init (extract from cookies)
             $('#full-name').val(getCookie('fn'));
             $('#address').val(getCookie('ad'));
 
