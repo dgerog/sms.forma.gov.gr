@@ -15,33 +15,5 @@
             'title' => 'English',
             'icon' => 'united-states-of-america',
         ),
-        'fa' => array (
-            'title' => 'Farsi',
-            'icon' => 'iran',
-        ),
-        'es' => array (
-            'title' => 'Spanish',
-            'icon' => 'spain',
-        ),
-        'ku' => array (
-            'title' => 'Sorani',
-            'icon' => 'kurdistan',
-        ),
-        'it' => array (
-            'title' => 'Italian',
-            'icon' => 'italy',
-        ),
-        'ar' => array (
-            'title' => 'Arabic',
-            'icon' => 'syria',
-        ),
-        'fr' => array (
-            'title' => 'French',
-            'icon' => 'france',
-        ),
-        'ur' => array (
-            'title' => 'Urdu',
-            'icon' => 'pakistan',
-        ),
     );
 ?>

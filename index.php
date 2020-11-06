@@ -7,6 +7,10 @@
   //header("Content-Security-Policy: default-src 'https';");
   header("Feature-Policy: * 'none';");
 
+  //time restrictions
+  define ('TIME_LOWER',  5);
+  define ('TIME_UPPER', 21);
+
   //load languages  
   require_once('localization/languages.php');
   global $messages; global $languages; global $lang;
@@ -16,6 +20,10 @@
   
   //load localization
   require_once('localization/' . $lang . '.php');
+
+  //chech the day zone
+  date_default_timezone_set('Europe/Athens');
+  $time = date('H');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -82,22 +90,27 @@
         </div>
         
         <div class="form-group">
-            <p><b><?php echo $messages['select-reason']; ?>:</b></p>
+            <p><b><?php echo sprintf($messages['select-reason'], TIME_LOWER, TIME_UPPER); ?>:</b></p>
             <p>1. <?php echo $messages['reason_1']; ?></p>
             <a href="#" onclick="javascript:prepareSMS(1);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
             <hr/>
-            <p>2. <?php echo $messages['reason_2']; ?></p>
-            <a href="#" onclick="javascript:prepareSMS(2);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
-            <hr/>
-            <p>3. <?php echo $messages['reason_3']; ?></p>
-            <a href="#" onclick="javascript:prepareSMS(3);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
-            <hr/>
-            <p>4. <?php echo $messages['reason_4']; ?></p>
-            <a href="#" onclick="javascript:prepareSMS(4);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
-            <hr/>
-            <p>5. <?php echo $messages['reason_5']; ?></p>
-            <a href="#" onclick="javascript:prepareSMS(5);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
-            <hr/>
+            <?php 
+              if ($time>=TIME_LOWER && $time <=TIME_UPPER) {
+               //the following reasons are allowed only between TIME_LOWER & TIME_UPPER hours
+            ?>
+              <p>2. <?php echo $messages['reason_2']; ?></p>
+              <a href="#" onclick="javascript:prepareSMS(2);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
+              <hr/>
+              <p>3. <?php echo $messages['reason_3']; ?></p>
+              <a href="#" onclick="javascript:prepareSMS(3);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
+              <hr/>
+              <p>4. <?php echo $messages['reason_4']; ?></p>
+              <a href="#" onclick="javascript:prepareSMS(4);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
+              <hr/>
+              <p>5. <?php echo $messages['reason_5']; ?></p>
+              <a href="#" onclick="javascript:prepareSMS(5);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
+              <hr/>
+            <?php } ?>
             <p>6. <?php echo $messages['reason_6']; ?></p>
             <a href="#" onclick="javascript:prepareSMS(6);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
             <hr/>
