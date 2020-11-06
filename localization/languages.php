@@ -15,5 +15,9 @@
             'title' => 'English',
             'icon' => 'united-states-of-america',
         ),
+        'fa' => array (
+            'title' => 'Farsi',
+            'icon' => 'iran',
+        ),        
     );
 ?>

@@ -1,4 +1,4 @@
-#  SMS για το forma.gov.gr
+#  SMS για το forma.gov.gr (Με χρονικούς περιορισμούς στις επιλογές)
 
 Αυτοματοποίηση της διαδικασίας αποστολής SMS στο πλαίσιο της απαγόρευσης εξόδου. Τα στοιχεία αποθηκεύονται σε cookies και συμπληρώνονται αυτόματα κάθε φορά που ανανεώνεται η σελίδα. 
 
@@ -19,11 +19,6 @@
 
 * **Dionisis Skordoulis**: For some security improvements.
 * **Farhan Sejdeh**: For providing the Farsi/Persian tranalation.
-* **Joram Medina Gijon**: For providing the Spanish tranalation.
-* **Raad Azeebaree**: For providing the Kurdish translation.
-* **Alessandro Mangione**: For providing the Italian translation.
-* **Mervat Mousallam**: For providing the Arabic translation.
-* **Serigne Sow**: For providing the French translation.
 
 ## License
 
