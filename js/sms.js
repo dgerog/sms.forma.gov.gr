@@ -3,18 +3,18 @@ var sms_number = '13033'; //replace with the receipient number
 function prepareSMS(reason) {
     var fn = $('#full-name').val();
     if (fn.length <= 5) {
-        alert(messages.no_fn).
+        alert(messages.no_fn);
         $('#full-name').focus(function() {});
         return;
     }
     if (fn.indexOf(' ') == -1) {
-        alert(messages.no_fn_space).
+        alert(messages.no_fn_space);
         $('#full-name').focus(function() {});
         return;
     }
     var ad = $('#address').val();
     if (ad.length <= 5) {
-        alert(messages.no_ad).
+        alert(messages.no_ad);
         $('#address').focus(function() {});
         return;
     }
