@@ -136,6 +136,8 @@
             </div>
         </center>
       </small>
+      <h3>Η σελίδα αυτή <b>ΔΕΝ</b> σχετίζεται με την πολιτική προστασία ή κάποια άλλη κρατική λειτουργία. Για περισσότερες πληροφορίες μπορείτε να ανατρέξετε στην επίσημη σελίδα της <a href='https://www.civilprotection.gr/el/simantika-themata/ta-nea-metra-epidimiologikoy-synagermoy-gia-oli-ti-hora' target='_blank'>πολιτικής προστατσίας.</a></h3>
+      <h3>This page is <b>NOT</b> related to civili protection or any other state body. For more details you may visit the <a href='https://www.civilprotection.gr/el/simantika-themata/ta-nea-metra-epidimiologikoy-synagermoy-gia-oli-ti-hora' target='_blank'>official civil protection webpage.</a></h3>
 
       <hr>
 
