@@ -8,6 +8,7 @@
   header("Feature-Policy: * 'none';");
 
   //time restrictions
+  define ('APPLY_TIME_RESTRICTIONS', false);
   define ('TIME_LOWER',  5);
   define ('TIME_UPPER', 21);
 
@@ -95,7 +96,7 @@
             <a href="#" onclick="javascript:prepareSMS(1);" class="btn btn-primary"><?php echo $messages['create_sms']; ?></a>
             <hr/>
             <?php 
-              if ($time>=TIME_LOWER && $time <=TIME_UPPER) {
+              if (!APPLY_TIME_RESTRICTIONS || ($time>=TIME_LOWER && $time <=TIME_UPPER)) {
                //the following reasons are allowed only between TIME_LOWER & TIME_UPPER hours
             ?>
               <p>2. <?php echo $messages['reason_2']; ?></p>
